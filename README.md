@@ -21,7 +21,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## About Laravel
+## About This API
 
 This API is created using Laravel 9.19 API Resource. It has Users, Product. Protected routes are also added. Protected routes with Laravel Sanctum.
 
