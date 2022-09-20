@@ -26,15 +26,15 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 -   User
 -   Product
 
-#### Usage
+## Usage
 
 Clone the project via git clone or download the zip file.
 
-##### .env
+## .env
 
 Copy contents of .env.example file to .env file. Create a database and connect your database in .env file.
 
-##### Composer Install
+## Composer Install
 
 cd into the project directory via terminal and run the following command to install composer packages.
 
