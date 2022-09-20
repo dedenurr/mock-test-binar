@@ -96,7 +96,7 @@ then run the following command to create migrations in the databbase.
 
 ![Delete Product](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/deleteProduct.JPG)
 
-#### Logout Product By Id
+#### Logout
 
 ![logout](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/logout.JPG)
 
