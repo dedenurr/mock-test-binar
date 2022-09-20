@@ -84,7 +84,7 @@ then run the following command to create migrations in the databbase.
 
 #### Register
 
-![register](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/login.JPG)
+![register](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/register.JPG)
 
 #### Login
 
