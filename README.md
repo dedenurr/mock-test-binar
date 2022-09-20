@@ -84,7 +84,7 @@ then run the following command to create migrations in the databbase.
 
 #### Login
 
-![alt text](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/login.JPG)
+![login](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/login.JPG)
 
 ## Test Api in Swagger
 
