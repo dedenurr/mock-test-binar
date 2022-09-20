@@ -117,3 +117,7 @@ then run the following command to create migrations in the databbase.
 ## Test Api in Swagger
 
 -   http://localhost:8000/api/documentation
+
+## Jawaban Mock Test
+
+![register](https://github.com/dedenurr/mock-test-binar/blob/master/Jawaban_no_1-4_Dede_nurrahman_Mock-test-Binar-BackendDev.pdf)
