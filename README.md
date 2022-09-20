@@ -62,7 +62,7 @@ then run the following command to create migrations in the databbase.
 
 ## Test Api in your Postmant
 
-\*in the folder postman has file "mock-test-binar.postman_collection.json". upload to your postman
+### in the folder postman has file "mock-test-binar.postman_collection.json". upload to your postman
 
 ## API EndPoints
 
