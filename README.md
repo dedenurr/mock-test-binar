@@ -7,14 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
--   [Getting Started](https://laravel.com/docs/9.x/installation).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
 ## About This API
 
 This API is created using Laravel 9.19 API Resource. It has Users, Product. Protected routes are also added. Protected routes with Laravel Sanctum.
