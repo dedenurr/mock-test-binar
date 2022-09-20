@@ -21,6 +21,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## About Laravel
+
+This API is created using Laravel 9.19 API Resource. It has Users, Product. Protected routes are also added. Protected routes with Laravel Sanctum.
+
 ## Following are the Models
 
 -   User
@@ -55,3 +59,27 @@ then run the following command to create migrations in the databbase.
 ```
    $ php artisan serve
 ```
+
+## Test Api in your Postmant
+
+\*in the folder postman has file "mock-test-binar.postman_collection.json". upload to your postman
+
+## API EndPoints
+
+##### Auth
+
+-   "Register" POST http://localhost:8000/api/register
+-   "Login" POST http://localhost:8000/api/login
+-   "Logout" POST http://localhost:8000/api/logout
+
+##### Product
+
+-   "Get All Product" GET http://localhost:8000/api/products
+-   "Create Product" POST http://localhost:8000/api/products
+-   "Get Detail Product By id" POST http://localhost:8000/api/products/1
+-   "Update Product By id" POST http://localhost:8000/api/products/1 with \_method PATCH
+-   "Delete Product By id" POST http://localhost:8000/api/products/1
+
+## Test Api in Swagger
+
+-   http://localhost:8000/api/documentation
