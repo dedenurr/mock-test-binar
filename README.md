@@ -82,9 +82,37 @@ then run the following command to create migrations in the databbase.
 
 ## Screen Capture Postman Result
 
+#### Register
+
+![register](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/login.JPG)
+
 #### Login
 
 ![login](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/login.JPG)
+
+#### Get All Products
+
+![Get All Products](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/getProduct.JPG)
+
+#### Get Detailed Product By Id
+
+![Get Detail Product](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/getDetailProduct.JPG)
+
+#### Create Product
+
+![Create Product](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/createProduct.JPG)
+
+#### Update Product By Id
+
+![Update Product](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/updateProduct.JPG)
+
+#### Delete Product By Id
+
+![Delete Product](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/deleteProduct.JPG)
+
+#### Logout Product By Id
+
+![logout](https://github.com/dedenurr/mock-test-binar/blob/master/public/imagePostman/logout.JPG)
 
 ## Test Api in Swagger
 
