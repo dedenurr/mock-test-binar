@@ -80,6 +80,12 @@ then run the following command to create migrations in the databbase.
 -   "Update Product By id" POST http://localhost:8000/api/products/1 with \_method PATCH
 -   "Delete Product By id" POST http://localhost:8000/api/products/1
 
+## Screen Capture Postman Result
+
+#### Login
+
+![alt text](https://github.com/[dedenurr]/[mock-test-binar]/blob/[branch]/login.jpg?raw=true)
+
 ## Test Api in Swagger
 
 -   http://localhost:8000/api/documentation
