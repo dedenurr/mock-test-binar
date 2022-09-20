@@ -1,0 +1,338 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0",
+        "title": "mock-test-binar",
+        "contact": {}
+    },
+    "host": "localhost:8000",
+    "basePath": "/api",
+    "securityDefinitions": {},
+    "schemes": ["http"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"],
+    "paths": {
+        "/products": {
+            "get": {
+                "summary": "Get Products",
+                "tags": ["Products"],
+                "operationId": "GetProducts",
+                "deprecated": false,
+                "produces": ["application/json"],
+                "parameters": [
+                    {
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": false,
+                        "default": "Bearer {token}",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "headers": {}
+                    }
+                },
+                "security": []
+            },
+            "post": {
+                "summary": "Create Products",
+                "tags": ["Products"],
+                "operationId": "CreateProducts",
+                "deprecated": false,
+                "produces": ["application/json"],
+                "consumes": ["application/x-www-form-urlencoded"],
+                "parameters": [
+                    {
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": false,
+                        "default": "Bearer {token}",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "in": "formData",
+                        "required": true,
+                        "type": "string",
+                        "description": ""
+                    },
+                    {
+                        "name": "price",
+                        "in": "formData",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32",
+                        "description": ""
+                    },
+                    {
+                        "name": "image_url",
+                        "in": "formData",
+                        "required": true,
+                        "type": "string",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "headers": {}
+                    }
+                },
+                "security": []
+            }
+        },
+        "/products/{id}": {
+            "post": {
+                "summary": "Update Products",
+                "tags": ["Products"],
+                "operationId": "UpdateProducts",
+                "deprecated": false,
+                "produces": ["application/json"],
+                "consumes": ["application/x-www-form-urlencoded"],
+                "parameters": [
+                    {
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": false,
+                        "default": "Bearer {token}",
+                        "type": "string"
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32",
+                        "description": ""
+                    },
+                    {
+                        "name": "name",
+                        "in": "formData",
+                        "required": true,
+                        "type": "string",
+                        "description": ""
+                    },
+                    {
+                        "name": "price",
+                        "in": "formData",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32",
+                        "description": ""
+                    },
+                    {
+                        "name": "image_url",
+                        "in": "formData",
+                        "required": true,
+                        "type": "string",
+                        "description": ""
+                    },
+                    {
+                        "name": "_method",
+                        "in": "formData",
+                        "required": true,
+                        "type": "string",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "headers": {}
+                    }
+                },
+                "security": []
+            },
+            "delete": {
+                "summary": "Delete Product",
+                "tags": ["Products"],
+                "operationId": "DeleteProduct",
+                "deprecated": false,
+                "produces": ["application/json"],
+                "parameters": [
+                    {
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": false,
+                        "default": "Bearer {token}",
+                        "type": "string"
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "headers": {}
+                    }
+                },
+                "security": []
+            },
+            "get": {
+                "summary": "Get Detail Product",
+                "tags": ["Products"],
+                "operationId": "GetDetailProduct",
+                "deprecated": false,
+                "produces": ["application/json"],
+                "parameters": [
+                    {
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": false,
+                        "default": "Bearer {token}",
+                        "type": "string"
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int32",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "headers": {}
+                    }
+                },
+                "security": []
+            }
+        },
+        "/register": {
+            "post": {
+                "summary": "Register",
+                "tags": ["Auth"],
+                "operationId": "Register",
+                "deprecated": false,
+                "produces": ["application/json"],
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "required": true,
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/RegisterRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "headers": {}
+                    }
+                }
+            }
+        },
+        "/login": {
+            "post": {
+                "summary": "Login",
+                "tags": ["Auth"],
+                "operationId": "Login",
+                "deprecated": false,
+                "produces": ["application/json"],
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "required": true,
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/LoginRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "headers": {}
+                    }
+                }
+            }
+        },
+        "/logout": {
+            "post": {
+                "summary": "Logout",
+                "tags": ["Auth"],
+                "operationId": "Logout",
+                "deprecated": false,
+                "produces": ["application/json"],
+                "parameters": [
+                    {
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": false,
+                        "default": "Bearer {token}",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "headers": {}
+                    }
+                },
+                "security": []
+            }
+        }
+    },
+    "definitions": {
+        "RegisterRequest": {
+            "title": "RegisterRequest",
+            "example": {
+                "name": "dede",
+                "email": "dede@gmail.com",
+                "password": "123456"
+            },
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            },
+            "required": ["name", "email", "password"]
+        },
+        "LoginRequest": {
+            "title": "LoginRequest",
+            "example": {
+                "email": "dede@gmail.com",
+                "password": "123456"
+            },
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            },
+            "required": ["email", "password"]
+        }
+    },
+    "security": [],
+    "tags": [
+        {
+            "name": "Products"
+        },
+        {
+            "name": "Auth"
+        }
+    ]
+}
