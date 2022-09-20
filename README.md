@@ -120,4 +120,4 @@ then run the following command to create migrations in the databbase.
 
 ## Jawaban Mock Test
 
-![register](https://github.com/dedenurr/mock-test-binar/blob/master/Jawaban_no_1-4_Dede_nurrahman_Mock-test-Binar-BackendDev.pdf)
+[Jawaban Mock Test](https://github.com/dedenurr/mock-test-binar/blob/master/Jawaban_no_1-4_Dede_nurrahman_Mock-test-Binar-BackendDev.pdf)
